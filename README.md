@@ -23,8 +23,9 @@ Although ORCID can be configured as an OpenID Connect Identity Provider, the cur
 
 ## Compatibility
 
-Version 1.1.0 is compatible with Keycloak version 18.0.0 .
-Version 1.3.0 is compatible with Keycloak version 22.0.0 .
+Version `1.1.0` is compatible with Keycloak version `18`.
+Version `1.3.0` is compatible with Keycloak version `22`-`24`.
+Version `1.4.0` is compatible with Keycloak version `25`-`26`.
 
 ## Installation
 
@@ -34,7 +35,7 @@ The plugin installation is simple and can be done without a Keycloak server rest
 * For Keycloak X, copy the jar in the directory 'providers' of your Keycloak server's root. For old Keycloak in wildfly, copy the JAR file into the `standalone/deployments` directory of your Keycloak server's root.
 * Restart Keycloak (optional, hot deployment should work)
 
-Build with command : mvn clean install
+Build with command : `mvn clean install`
 
 ## How to use it
 

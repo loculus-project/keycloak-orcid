@@ -9,7 +9,7 @@
     - [Configuration](#configuration)
       - [Mappers](#mappers)
       - [Theme](#theme)
-  - [How to contribute](#how-to-contribute)
+  - [Issue management](#issue-management)
 
 This [Keycloak](https://www.keycloak.org) plugin makes possible to add [ORCID](https://orcid.org/) as Social Identity Provider.
 [ORCID](https://orcid.org/)  is one of the most popular authentication options for research & education scenarios, including access to the European Open Science Cloud (EOSC).
@@ -25,7 +25,8 @@ Although ORCID can be configured as an OpenID Connect Identity Provider, the cur
 
 Version `1.1.0` is compatible with Keycloak version `18`.
 Version `1.3.0` is compatible with Keycloak version `22`-`24`.
-Version `1.4.0` is compatible with Keycloak version `25`-`26`.
+Version `1.4.0` is compatible with Keycloak version `25` and possibly later versions.
+Version `1.4.1` is compatible with Keycloak version `26` (probably also `25` and possibly later versions).
 
 ## Installation
 
